@@ -1,0 +1,45 @@
+.red{
+	color:#e4393c;
+}
+.bd{
+	width:500px;
+	height:300px;
+	border:3px solid #ccc;
+	border-radius: 8px;
+	margin: 150px auto;
+}
+.form{
+	width:75%;
+	margin:15% auto;
+}
+.input{
+	margin-bottom: 5%;
+}
+.input>p{
+	text-align: center;
+}
+.input input{
+	width:60%;
+	height: 20px;
+}
+.btn{
+	width:auto;
+	margin: 0 auto;
+}
+.btn input{
+	width:33%;
+	height:30px;
+	margin-top:65px;
+}
+.btn1{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color:#fff;
+	margin-right:25%; 
+}
+.btn2{
+	border:1px solid #00EEEE;
+	border-radius:5px;
+	background-color: #00EEEE;
+	color:#fff;
+}
