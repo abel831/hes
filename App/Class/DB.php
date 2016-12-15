@@ -1,9 +1,11 @@
 <?php
 class DB
 {
-	public function __construct()
+	public function __construct($configPath = '')
 	{
-		$configPath = '../../etc/config.ini';
+		if ($configPath == '') {
+			$configPath = '../../etc/config.ini';
+		}
 		$configArray = parse_ini_file($configPath, true);
 		$redishost = array();
 		if ($configArray === false) {

@@ -1,7 +1,7 @@
 <?php
 try{
 	session_start();
-	unset($_SESSION['uid']);
+	unset($_SESSION['uid'], $_SESSION['id']);
 	echo json_encode(array('code'=>0, 'msg'=>'success'));
 }catch(Exception $e){
 	$code = $e->getCode() ? $e->getCode() : 404;

@@ -75,6 +75,7 @@ type tinyint(4) COMMENT '类型 1.新闻2.公告',
 title varchar(20) COMMENT '标题',
 content text COMMENT '内容',
 status tinyint(4) COMMENT '状态 1.正常2.待审核4.审核未通过5.已删除',
+room_id tinyint(4) COMMENT '科室分类',
 create_at datetime,
 update_at datetime
 )DEFAULT CHARACTER SET utf8";
