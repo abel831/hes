@@ -174,7 +174,7 @@ function sub(){
 					window.location.href="signin.php";
 				}else{
 					$(".code_err").html(ret['msg']);
-					console.log(ret);
+					console.log(1);
 				};
 			});
 		}

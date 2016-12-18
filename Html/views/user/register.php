@@ -29,7 +29,7 @@
            </div>
            <div id="sex">
                <span>性&nbsp;&nbsp;&nbsp;别：</span>
-               <input type="radio" value="1" id="sex1" name="sex">男
+               <input type="radio" value="1" id="sex1" name="sex" checked>男
                <input type="radio" value="2" id="sex2" name="sex">女
            </div>
            <div class="input">
@@ -43,8 +43,8 @@
               <span class="age_err red"></span>
            </div>
            <div class="input">
-               <label for="position">职&nbsp;&nbsp;&nbsp;称：</label>
-               <select id="position" name="position">
+               <label for="position_id">职&nbsp;&nbsp;&nbsp;称：</label>
+               <select id="position_id" name="position_id">
                    <option name="position" value="0">请选择</option>
                    <option name="position" value="1">护士</option>
                    <option name="position" value="2">护师</option>
@@ -57,8 +57,8 @@
               <span class="position_err red"></span>
            </div>
            <div class="input">
-               <label for="room">科&nbsp;&nbsp;&nbsp;室：</label>
-               <select id="room" name="room">
+               <label for="room_id">科&nbsp;&nbsp;&nbsp;室：</label>
+               <select id="room_id" name="room_id">
                     <option value="0">请选择</option>
                     <option value="1">急诊科</option>
                     <option value="2">内科</option>

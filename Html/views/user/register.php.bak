@@ -29,7 +29,7 @@
            </div>
            <div id="sex">
                <span>性&nbsp;&nbsp;&nbsp;别：</span>
-               <input type="radio" value="1" id="sex1" name="sex">男
+               <input type="radio" value="1" id="sex1" name="sex" checked>男
                <input type="radio" value="2" id="sex2" name="sex">女
            </div>
            <div class="input">
