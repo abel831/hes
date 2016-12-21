@@ -156,7 +156,7 @@ function sub(){
 			var check = checkval(key, obj[key]);
 		};
 		if (check == false) {
-			//return;
+			return;
 		};
 		data += key + '=' + obj[key] + '&';
 	}
@@ -168,13 +168,15 @@ function sub(){
 		success: function(ret){
 			$.each(ret, function(i, v){
 				if (ret['code'] == 0) {
+					alert("注册成功");
 					window.location.href="signin.php";
 				}else if (ret['code'] == 2) {
 					$(".code_err").html(ret['msg']);
+					alert("用户名已注册");
 					window.location.href="signin.php";
 				}else{
+					alert(ret['msg']);
 					$(".code_err").html(ret['msg']);
-					console.log(ret);
 				};
 			});
 		}

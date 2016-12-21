@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="/Html/css/register.css"> 
+    <link rel="stylesheet" type="text/css" href="/Html/css/user/register.css"> 
     <title>注册页面</title>
 </head>
 <body>
@@ -106,6 +106,6 @@
        </form>
     </div>
 <script src="/Html/js/jquery-1.11.3.js"></script>
-<script src="/Html/js/register.js"></script>
+<script src="/Html/js/user/register.js"></script>
 </body>
 </html>

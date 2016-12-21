@@ -17,17 +17,19 @@ function sub(){
 		data:{'uid':uid,'password':password},
 		datatype:'json',
 		success:function(ret){
-			$.each(ret, function(i, v){
-				if (ret['code'] == 0) {
-					window.location.href='/Public/index.php';
-				}else if(ret['code'] == $code){
-					$(".err").html(ret['msg']);
-				}
-			});
+			ret = eval('('+ret+')');
+			if (ret.code == 0) {
+				window.location.href = "index.php";
+			}else if (ret.code == 400) {
+				$(".err").html(ret.msg);
+			}else if (ret.code == 404) {
+				$(".err").html(ret.msg);
+			};
+
 		}
 	});
 }
 /*注册跳转*/
 function reg(){
-	window.location.href="register.php";
+	window.location.href="/Html/views/user/register.php";
 }

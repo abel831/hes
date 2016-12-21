@@ -28,6 +28,6 @@
         </form>
     </div>
 <script src="/Html/js/jquery-1.11.3.js"></script>
-<script src="/Html/js/user/signin.js"></script>
+<script src="/Html/js/signin.js"></script>
 </body>
 </html>
