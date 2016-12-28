@@ -44,10 +44,10 @@
   		</div>
   		<div class="mien_content lt">
   			<ul>
-  				<li>1</li>
-  				<li>2</li>
-  				<li>3</li>
-  				<li>4</li>
+  				<li>1 医院风采1</li>
+  				<li>2 医院风采2</li>
+  				<li>3 医院风采3</li>
+  				<li>4 医院风采4</li>
   			</ul>
   		</div>
   		<div class="mien_content lt">
