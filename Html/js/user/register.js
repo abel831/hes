@@ -160,7 +160,6 @@ function sub(){
 		};
 		data += key + '=' + obj[key] + '&';
 	}
-
 	$.ajax({
 		type:'GET',
 		url:'/app/api/register.php?' + data,

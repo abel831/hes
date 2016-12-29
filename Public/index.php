@@ -62,9 +62,9 @@
   	</div>
  </body>
 </html>
-<!--
+
 <?php
-/*
+
 // $self = $_SERVER['PHP_SELF'];
 session_start();
 // unset($_SESSION['uid']);
@@ -78,4 +78,3 @@ if (!$checkuser) {
 	// include('../Html/views/siderbar/signin.php');
 	echo 1234567890;
 }
-*/

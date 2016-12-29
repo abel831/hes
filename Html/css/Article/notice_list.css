@@ -1,0 +1,54 @@
+ul,li,p,a,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+    margin:0px;
+    padding:0px;
+    border:none;
+    list-style:none;
+    text-align: center;
+    text-decoration: none;
+}
+body{
+	margin:0px;
+    padding:0px;
+}
+.lt{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+#base{
+	width:75%;
+	height: 550px;
+	margin: 5% auto;
+	border:3px solid #ccc;
+	border-radius: 5%;
+}
+.header{
+	margin:3% 0;
+}
+.list{
+	width:100%;
+	margin:5% auto;
+}
+.list_tab{
+	width:70%;
+	margin: 0 auto;
+}
+.page{
+	width: 80%;
+	margin: 0 auto;
+}
+.page ul{
+	width: 15%;
+	height: 20px;
+	line-height: 20px;
+	margin: 3% 0;
+	float: right;
+}
+.page ul li{
+	margin: 0 3%;
+	float: left;
+}
