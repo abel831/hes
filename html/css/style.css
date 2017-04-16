@@ -1,0 +1,129 @@
+/* public */
+
+body{
+/* 	width:80%;
+	margin:0 auto; */
+	font-size:12px;
+}
+body a{
+	transition:0.4s all;
+}
+header{
+	/* border:1px solid #000; */
+}
+.border,.border div{
+	border:1px solid #000;
+}
+div.row{
+	margin-bottom: 2em;
+}
+.col-lg-6{
+	padding:0;
+}
+
+
+/* header */
+header .mid,header .prop{
+	text-align:center;
+}
+header .mid{
+	background:-webkit-linear-gradient(bottom , #0080ff , #ffc );
+}
+header .prop{
+	background:-webkit-linear-gradient(bottom , #ffc , #0080ff );
+}
+header .mid a,header .prop a{
+	color:#e4393c;
+	display:block;
+	font-size:2em;
+	padding:0.5em;
+	text-decoration:none;
+	width:100%;
+}
+
+header .mid a:link,header .prop a:link{color:#e4393c;}
+header .mid a:visited,header .prop a:visited{color:#e4393c;}
+header .mid a:hover,header .prop a:hover{
+	color:#fff;
+	background:-webkit-linear-gradient(top ,  #d3a4ff , #921aff );
+}
+header .mid a:active,header .prop a:active{color:#e4393c;}
+
+
+header .mid a.hover,header .prop a.hover{
+	color:#fff;
+	background:-webkit-linear-gradient(top ,  #d3a4ff , #921aff );
+}
+
+/* section */
+
+section .container{
+	margin:5em auto;
+	border:5px dashed #00aeae;
+	border-radius:5%;
+	padding:4em 0;
+}
+section .form-group{
+	margin-bottom:0;
+}
+section .txt_lt{
+	width:7.5em;
+	font-size:1.2em;
+	margin:0 0.5em 0 0;
+	vertical-align: middle;
+}
+section .form-control{
+	display:inline-block;
+	width:50%;
+	height:40px;
+}
+section .result{
+	height:6em;
+	vertical-align:top;
+}
+section .btn{
+	margin:0 0 0.3em 0.5em;
+}
+section .floor{
+	margin-top:2em;
+}
+
+/* textarea固定 */
+textarea{resize:none;}
+
+
+section p{
+	font-size:1.5em;
+	font-weight:bold;
+	text-align:left;
+	line-height:2em;
+	margin:0;
+}
+section table th,section table tr{
+	font-size:1.25em;
+	text-align:center;
+	vertical-align: middle;
+}
+.table-bordered > tbody > tr > td,.table-bordered > tbody > tr > th{
+	border:1px solid #00aeae;
+}
+section .table-bordered{
+	border:2px solid #00aeae;
+}
+
+/* prop.html */
+section .prop_sub{
+	font-size:1.25em;
+	font-weight:bold;
+	width:15%;
+	height:4em;
+	position:absolute;
+	top:0.5em;
+	right:0.5em;
+}
+section .sup{
+	width:2em;
+	height:auto;
+	line-height:1.5em;
+	text-align:center;
+}

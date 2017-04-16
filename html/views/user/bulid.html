@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <link rel="stylesheet" href="../../css/reset.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <script type="text/javascript" src="../../js/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="../../js/bootlint.js"></script>
+  <title>header</title>
+ </head>
+ <body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="mid col-lg-6">
+					<a href="bulid.html">查询大楼</a>
+				</div>
+				<div class="prop col-lg-6">
+					<a href="prop.html">查询道具</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<!--  section -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-lg-8 col-lg-offset-2">
+					<form action="">
+						<div class="form-group">
+							<label for="mid" class="txt_lt">请输入用户TVMID</label>
+							<input type="text" id="mid" class="form-control"/>
+							<button type="submit" class="btn btn-Default">查询提交</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="row floor">
+				<div class="col-lg-8 col-lg-offset-2">
+					<p>
+						用户大楼列表
+					</p>
+					<table class="table table-bordered">
+						<tr>
+							<th>新建日期</th>
+							<th>城市</th>
+							<th>街道</th>
+							<th>经纬度</th>
+							<th>打击日期时间</th>
+							<th>拆除日期时间</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="text-center col-lg-8 col-lg-offset-2">
+					<form action="">
+						<div class="form-group">
+							<label for="coor" class="txt_lt">请输入用户任一大楼的地图经纬度</label>
+							<input type="text" id="coor" class="form-control"/>
+							<button type="submit" class="btn btn-Default">查询提交</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="text-center col-lg-8 col-lg-offset-2">
+					<form action="">
+						<div class="form-group">
+							<label for="result" class="txt_lt">显示方式</label>
+							<textarea name="result" id="result" class="result form-control" cols="30" rows="10"></textarea>
+							<!-- <input type="text" id="result" class="result form-control" /> -->
+							<button type="submit" class="btn btn-Default">提交修改</button>
+						</div>
+					</form>
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<script>
+	/*
+		(function (){
+			var s = document.createElement("script");
+			s.onload = function (){bootlint.showLintReportForCurrentDocument([]);};
+			s.src="https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";
+			document.body.appendChild(s)
+		})();
+	*/
+	</script>
+	<script type="text/javascript" src="../../js/js.js"></script>
+ </body>
+</html>

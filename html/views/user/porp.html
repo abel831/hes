@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-CN">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <link rel="stylesheet" href="../../css/reset.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <script type="text/javascript" src="../../js/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="../../js/bootlint.js"></script>
+  <title>prop</title>
+ </head>
+ <body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="mid col-lg-6">
+					<a href="bulid.html">查询大楼</a>
+				</div>
+				<div class="prop col-lg-6">
+					<a href="prop.html">查询道具</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<!--  section -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-lg-8 col-lg-offset-2">
+					<div class="form-group">
+						<form action="">
+							<div>
+								<label for="mid" class="txt_lt">请输入用户的TVMID</label>
+								<input type="text" id="mid" class="form-control" />
+							</div>
+							<div>
+								<label for="date" class="txt_lt">选择日期区间</label>
+								<input type="text" id="date" class="form-control" />
+							</div>
+							<div>
+								<button type="submit" class="prop_sub btn btn-Default">提交查询</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="row floor">
+				<div class="col-lg-8 col-lg-offset-2">
+					<p>
+						显示结果
+					</p>
+					<table class="table table-bordered">
+						<tr>
+							<th>道具</th>
+							<th>制造/收货数量</th>
+							<th>购买数量</th>
+							<th>使用数量</th>
+							<th>剩余数量</th>
+							<th>？？数量</th>
+							<th>应该补充</th>
+							<th>操作</th>
+						</tr>
+						<tr>
+							<td>导弹</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<input type="text" maxlength="2" class="sup"/>
+							</td>
+							<td>
+								<button type="submit">提交</button>
+							</td>	
+						</tr>
+						<tr>
+							<td>护盾</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<input type="text" maxlength="2" class="sup"/>
+							</td>
+							<td>
+								<button type="submit">提交</button>
+							</td>	
+						</tr>
+						<tr>
+							<td>抢夺卡</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<input type="text" maxlength="2" class="sup"/>
+							</td>
+							<td>
+								<button type="submit">提交</button>
+							</td>	
+						</tr>
+						<tr>
+							<td>火箭</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<input type="text" maxlength="2" class="sup"/>
+							</td>
+							<td>
+								<button type="submit">提交</button>
+							</td>	
+						</tr>
+						<tr>
+							<td>太阳</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<input type="text" maxlength="2" class="sup"/>
+							</td>
+							<td>
+								<button type="submit">提交</button>
+							</td>	
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+
+		(function (){
+			var s = document.createElement("script");
+			s.onload = function (){bootlint.showLintReportForCurrentDocument([]);};
+			s.src="https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";
+			document.body.appendChild(s)
+		})();
+
+	</script>
+	<script type="text/javascript" src="../../js/js.js"></script>
+ </body>
+</html>
