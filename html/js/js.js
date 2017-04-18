@@ -78,7 +78,9 @@ var checkMid = {
 	},
 };
 
-
+$("#checkMid").click(function(){
+	checkMid.sub();
+});
 
 
 /* prop.html */
@@ -214,9 +216,7 @@ console.log(checkMid2.sub());
 */
 
 /* 事件 */
-$("#checkMid").click(function(){
-	checkMid.sub();
-});
+
 $("#checkItem").click(function(){
 	checkMid2.sub();
 });
