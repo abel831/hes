@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script type="text/javascript">
+  var id=1
+	switch (id){
+		case uname:
+			var $val = $('#uname').val();
+			if ($val.length<=20) {
+				console.log(1);
+				return ture;
+			}else{
+				alert(2);
+				return false;
+			};
+  </script>
+ </body>
+</html>
